@@ -1,0 +1,53 @@
+Script started on 2024-07-04 00:31:51+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="211" LINES="50"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ tp[Kouch shubham.txt
+[?2004l[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ ls
+[?2004lassignment_1.log  shubham.txt
+[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ ls_ls[K[K[K-[K-[K -a[Kl shubham.te[Kxt
+[?2004l-rw-r--r-- 1 shubhammathur shubhammathur 0 Jul  4 00:32 shubham.txt
+[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ chmod7[K 755 shubham[K[Kam.txt
+[?2004l[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ chmod 755 shubham.txt[4Pls -l[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l-rwxr-xr-x 1 shubhammathur shubhammathur 0 Jul  4 00:32 [0m[01;32mshubham.txt[0m
+[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ sudo u[Kuser4[Kadd -m user1
+[?2004l[sudo] password for shubhammathur: 
+[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ cat -[K/etc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:106:112::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:107:113::/nonexistent:/usr/sbin/nologin
+shubhammathur:x:1000:1000:,,,:/home/shubhammathur:/bin/bash
+user1:x:1001:1001::/home/user1:/bin/sh
+[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ sudo [K chown shubham.txt uswr[K[Ker1
+[?2004lchown: invalid user: ‘shubham.txt’
+[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ sudo chown shubham.txt user1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kchown shubham.te[K[K[Kmathur usr1[K[Ker1 shubham.txt
+[?2004lchown: cannot access 'user1': No such file or directory
+[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ chown shubhammathur user1 shubham.txt[1@s[1@u[1@d[1@o[1@ 
+[?2004lchown: cannot access 'user1': No such file or directory
+[?2004h]0;shubhammathur@DESKTOP-CFK5CAP: ~/coe_assignment[01;32mshubhammathur@DESKTOP-CFK5CAP[00m:[01;34m~/coe_assignment[00m$ [?2004l
+exit
+
+Script done on 2024-07-04 00:38:43+05:30 [COMMAND_EXIT_CODE="1"]
